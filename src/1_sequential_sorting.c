@@ -4,6 +4,7 @@
 #include <time.h>
 
 //now i am in the branch-02
+//now i am in the branch-02-change and commit -2
 
 void merge_double(size_t N, double A[N], double B[N], size_t begin, size_t mid, size_t end) {
     size_t i = begin;
