@@ -62,10 +62,19 @@ void quicksort_double(size_t N, double A[N], size_t begin, size_t end) {
 
 static size_t const ARR_SIZE = 20;
 
+#include <time.h>
+
+
 int main() {
-    struct timespec ts;
-    timespec_get(&ts, TIME_UTC);
-    srand(ts.tv_sec * 1000 + ts.tv_nsec / 1000);
+    // struct timespec ts;
+    // timespec_get(&ts, TIME_UTC);
+    // srand(ts.tv_sec * 1000 + ts.tv_nsec / 1000);
+
+
+    // With:
+    srand((unsigned) clock());
+
+
 
     double A1[ARR_SIZE];
     printf("Array A1 before mergesort:\n");
