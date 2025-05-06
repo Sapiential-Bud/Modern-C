@@ -6,6 +6,16 @@
 //test
 //test-branch-01
 //test-branch-01-commit-01-after branch-02
+//now i am in the branch-02
+//now i am in the branch-02-change and commit -2
+//now i am in the branch-02-change and commit -3
+//now i am in the branch-02-change and commit -4
+//now i am in the branch-02
+//now i am in the branch-02-change and commit -2
+//now i am in the branch-02-change and commit -3
+//now i am in the branch-02-change and commit -4
+//now i am in the branch-02-change and commit -5
+//now i am in the branch-02-change and commit -6
 
 void merge_double(size_t N, double A[N], double B[N], size_t begin, size_t mid, size_t end) {
     size_t i = begin;
