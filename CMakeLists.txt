@@ -5,8 +5,7 @@ set(CMAKE_C_STANDARD 11)
 
 include_directories(${CMAKE_SOURCE_DIR}/src)
 
-add_executable(ex_01 src/1_sequential_sorting.c
-        src/git_new_file_test.cpp)
+add_executable(ex_01 src/1_sequential_sorting.c)
 add_executable(ex_02 src/1_sequential_sorting_string.c)
 add_executable(ex_03 src/2_numerical_derivatives.c)
 add_executable(ex_04 src/3_pi.c)

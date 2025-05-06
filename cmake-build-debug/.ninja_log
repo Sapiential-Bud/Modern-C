@@ -1,9 +1,0 @@
-# ninja log v6
-183	476	7681516800000000	CMakeFiles/004_Modern_C.dir/src/13_generic_derivative.c.obj	c4d27012d034ad74
-50	323	7681516800000000	CMakeFiles/004_Modern_C.dir/src/11_image_segmentation.c.obj	195e304c9c9cdaf6
-139	432	7681523420000000	CMakeFiles/004_Modern_C.dir/src/2_numerical_derivatives.c.obj	63bd122a7fcb43dc
-109	416	7681516800000000	CMakeFiles/004_Modern_C.dir/src/12_text_processor.c.obj	dce41a73cb4b8c1b
-10	719	7682346200000000	build.ninja	2a84043fcfaea13f
-205	480	7681523420000000	CMakeFiles/004_Modern_C.dir/src/3_pi.c.obj	b82b932ba7436111
-44	689	7681958965100000	CMakeFiles/ex_01.dir/src/1_sequential_sorting.c.obj	d313c17d96601b1b
-689	1324	7681958980000000	ex_01.exe	4a297deb4f462d8a
