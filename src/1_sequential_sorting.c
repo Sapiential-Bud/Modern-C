@@ -5,6 +5,7 @@
 
 //test
 //test-branch-01
+//test-branch-01-commit-01-after branch-02
 
 void merge_double(size_t N, double A[N], double B[N], size_t begin, size_t mid, size_t end) {
     size_t i = begin;
