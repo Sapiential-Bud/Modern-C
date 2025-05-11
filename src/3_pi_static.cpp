@@ -24,5 +24,6 @@ int main() {
         std::cout << "------\n";
     }
 
+    static_counter();
     return 0;
 }

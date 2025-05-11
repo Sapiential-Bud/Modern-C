@@ -5,7 +5,7 @@ project(004_Modern_C LANGUAGES C CXX)
 set(CMAKE_C_STANDARD 11)
 
 # C++11 for C++ targets
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 14)
 
 # Include headers from src/
 include_directories(${CMAKE_SOURCE_DIR}/src)
@@ -38,3 +38,18 @@ add_executable(ex_18 src/18_parallel_sorting_with_threads.c)
 # C++ executable using std::thread
 add_executable(ex_19 src/19_ThreadExample.cpp)
 add_executable(ex_20 src/20_ThreadExample_mutex.cpp)
+add_executable(ex_21 src/21_pointer.cpp)
+add_executable(ex_22 src/22_pointer_a.cpp)
+add_executable(ex_23 src/23_c_mem_layout.cpp)
+
+
+add_executable(ex_24 src/24_print_memory_map.cpp)
+set_target_properties(ex_24 PROPERTIES LINK_FLAGS "-mconsole")
+add_executable(ex_25 src/25_Stack_Start.cpp)
+#set_target_properties(ex_25 PROPERTIES LINK_FLAGS "-Wl,--stack,4194304")
+add_executable(ex_26 src/26_test_stack_depth.cpp)
+set_target_properties(ex_26 PROPERTIES LINK_FLAGS "-Wl,--stack,4194304")
+
+add_executable(ex_27 src/27_Check_Available_Memory.cpp)
+add_executable(ex_28 src/28_trigger_actual_allocation.cpp)
+
