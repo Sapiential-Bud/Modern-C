@@ -52,4 +52,8 @@ set_target_properties(ex_26 PROPERTIES LINK_FLAGS "-Wl,--stack,4194304")
 
 add_executable(ex_27 src/27_Check_Available_Memory.cpp)
 add_executable(ex_28 src/28_trigger_actual_allocation.cpp)
-
+add_executable(ex_29 src/29_address_lib.cpp)
+add_executable(ex_30 src/30_mytools.c)
+add_executable(ex_31 src/31_main_mytool.cpp)
+add_executable(ex_32 src/32_main_mytool.c)
+add_executable(ex_33 src/33_Runtime_address.cpp)
